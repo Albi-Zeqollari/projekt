@@ -1,0 +1,124 @@
+body  {
+
+    z-index:-1;
+   
+  }
+
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    grid-auto-rows: 200px;
+    grid-template-areas:
+      ". a a ."
+      ". a a ."; 
+  }
+  .item1 {
+    grid-area: a;
+    align-self: center;
+    justify-self: center;
+    width: 110%;
+    height: 148%;
+    margin-top: 50%;
+    opacity: 0.55;
+    list-style-type: none;
+    background-color: gainsboro;
+    border-radius: 7px;
+  
+
+  }
+
+  .item1:hover{
+    box-shadow: 9px 9px 9px 9px lightslategray;
+    border-radius: 15px;
+    transition: 1.5s;
+    
+
+  }
+
+  .results__title{
+
+
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    color:black;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+   
+  }
+
+  .results__fig{
+
+
+   position: relative;
+   left: 30%;
+   object-fit: cover;
+   display: block;
+   width: 300px;
+   height: 250px;
+  }
+
+  .results__fig:hover{
+
+    box-shadow: 6px 6px darkslategray;
+    transition: 1.5s;
+    transform: rotateZ(1.5deg);
+  }
+
+  .results__plot{
+
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 0.5px 0.5px;
+  }
+
+  .link{
+
+    position: relative;
+    left: 35%;
+    text-decoration: none;
+    color: black;
+  }
+
+  .link:hover{
+
+    color: whitesmoke;
+    transition: 1s;
+  }
+
+
+  .rate{
+
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+  }
+
+  .length{
+
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+
+
+  }
+
+  .year{
+
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+
+
+  }
+
+
+  #search{
+
+
+    width: 350px;
+  
+  }
+
+  
+
+  
